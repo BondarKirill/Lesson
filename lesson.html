@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>My first site</title>
+    <body>
+        <p>
+            C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>-сахароза
+            <br>
+            <br>
+            C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>-кофеин
+            <br>
+            <br>
+            <b>X<sup>2</b></sup>
+            <br/>
+            <br>
+            <i>H<sub>2</i></sub>O
+        </p>
+        
+        <br>
+        <br>
+        <hr color="yellow">
+        <br>
+        <br>
+    
+    <h1>Печенье "Вкус маминого детства"</h1>
+    <h2>Продукты</h2>
+    <ol type="A" reversed>
+        <li>Масло сливочное (размягченное) - 250г</li>
+        <li>Яйца - 2шт.</li>
+        <li>Сахар - 200-300 г</li>
+        <li>Мука - 450 г (3 стакана)</li>
+        <li>Разрыхлитель - 0,5 ч. ложки</li>
+    </ol> 
+
+    <ol type="I" reversed>
+        <li>Масло сливочное (размягченное) - 250г</li>
+        <li>Яйца - 2шт.</li>
+        <li>Сахар - 200-300 г</li>
+        <li>Мука - 450 г (3 стакана)</li>
+        <li>Разрыхлитель - 0,5 ч. ложки</li>
+    </ol> 
+
+    <br>
+    <br>
+    <hr color="yellow">
+    <br>
+    <br>
+
+    <img src="Layer.png" alt="Голубой квадрат">
+    
+    <br>
+    <br>
+    <hr color="yellow">
+    <br>
+    <br>
+
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/LmgxfPgmcCg" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+    <br>
+    <br>
+    <hr color="yellow">
+    <br>
+    <br>
+
+        <table border="1" width="500"> 
+            <thead>
+                <tr>
+                    <th>Название продукта</th>
+                    <th>Цена</th>
+                    <th>Количество</th>
+                    <th>Стоимость</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Хлеб</td>
+                    <td>25р</td>
+                    <td>2</td>
+                    <td>50р</td>
+                </tr>
+                <tr>
+                    <td>55р</td>
+                    <td>2</td>
+                    <td>110р</td>
+                </tr>
+                <tr>
+                    <td>Колбаса</td>
+                    <td>250р</td>
+                    <td>1</td>
+                    <td>250р</td>
+                </tr>
+                <tr>
+                    <td>Сыр</td>
+                    <td>125р</td>
+                    <td>2</td>
+                    <td>250р</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Итого</td>
+                    <td>550р</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br>
+        <br>
+        <hr color="yellow">
+        <br>
+        <br>  
+        <form action="" method="get">
+            <label for="login">Логин</label>
+            <input id="login" type="text" name="login" value="Кирилл" maxlength="10" placeholder="Введите логин">
+            <br>
+            <br>
+            <label>Логин:
+            <input type="text" name="login" placeholder="Введите логин">
+            </label>
+            <br>
+            <br>
+            <label for="passw">Пароль</label>
+            <input id="passw" type="password" name="passw" value="123456789" placeholder="Введите пароль">
+            <br>
+            <br>
+            <a href="#">Забыли пароль?</a>
+            <br>
+            <br>
+            <input type="submit" value="Отправить">
+            <button type="submit">Кнопка отправить</button>
+        </form>
+        
+        <br>
+        <br>
+        <hr color="yellow">     
+        <br>
+        <br>
+
+        <form action="" method="">
+            <label>
+                ФИО
+                <input type="text" name="fio" placeholder="Введите ФИО" value="Бондарь Кирилл Александрович">
+            </label>
+
+            <br>
+            <br>
+
+            <label>
+                Возраст
+                <input type="number" name="age" value="31">
+            </label>
+
+            <br>
+            <br>
+
+            <label>
+                Email
+                <input type="email" name="email" placeholder="Введите email" value="bondar_kirill@mail.ru">
+            </label>
+
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Пол</legend>
+                <label>
+                    Муж
+                    <input type="radio" name="sex" value="man" checked> 
+                </label>
+                <label>
+                    Жен
+                    <input type="radio" name="sex" value="woman"> 
+                </label>
+            </fieldset>
+
+            <br>
+            <br>
+
+            <select name="place" multiple>
+                <option value="1">Ресторан 1</option>
+                <option value="2">Ресторан 2</option>
+                <option value="3">Ресторан 3</option>
+                <option value="4">Ресторан 4</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Что понравилось</legend>
+                <label>
+                    <input type="checkbox" name="fav" value="place" checked>Место
+                </label>
+                <label>
+                    <input type="checkbox" name="fav" value="people" checked>Люди
+                </label>
+                <label>
+                    <input type="checkbox" name="fav" value="food" checked>Еда
+                </label>
+            </fieldset>
+
+            <br>
+            <br>
+            
+            <input type="date" name="data">
+
+            <br>
+            <br>
+            
+            <textarea name="comment" cols="50" rows="10" placeholder="Оставьте свой отзыв о НАС">Коментарий</textarea>
+
+            <br>
+            <br>
+
+            <input type="file" name="bill" multiple>
+            
+            <br>
+            <br>
+
+            <button type="submit">Отправить</button>        
+        </form>
+
+        <br>
+        <br>
+        <hr color="yellow">
+        <br>
+        <br>
+</body>
+</html>    
